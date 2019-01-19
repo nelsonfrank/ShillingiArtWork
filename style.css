@@ -95,8 +95,8 @@ body{
 .img-1{
     border: 1pz solid black;
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 120px;
+    height: 120px;
     transition: transform .2s;
     padding: 10px;
     margin: 0 auto;
@@ -107,7 +107,7 @@ body{
     color: brown;
 }
 img:hover{
-    transform: scale(1.5);
+    transform: scale(2);
 }
 
 
