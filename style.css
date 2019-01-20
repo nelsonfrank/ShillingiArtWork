@@ -21,9 +21,6 @@ body{
     display: flex;
     text-align: center;
     padding-left: 300px;
-
-   
-    
 }
 .cl-0{
  padding-right: 20px;
@@ -43,6 +40,7 @@ body{
     padding: 0px 5px;
     margin-right: 90px;
     width: auto;
+    
 }
 .cl-2{
     /* padding-right: 40px; */

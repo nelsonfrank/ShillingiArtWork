@@ -1,15 +1,64 @@
 *{
-    background: url(../image/abstract-attractive-backdrop-988872.jpg);
+   padding: 0px;
+   margin: 0px;
 }
 
 body{
-    background-color: black;
+    background: url(../image/birds-cold-conifer.jpg);
+    background-size: cover;
     height: 750px;
-    width:100%;
-   
+    width:auto;  
+    margin-top: 90px;
+    padding: 30px;
 }
+ header h1{
+     font-family: monaco;
+     font-size: 38px;
+     width: 400px;
+     
+     
+ }
+ header{
+     background-color: rgba(131, 123, 123, 0.568);
+     height: 90px;
+     top: 0px;
+     right: 0px;
+     left: 0px;
+    position: fixed;
+    box-shadow : 0 0 25px 0 black;
+ }
+.navbar{
 
-/* .container{
-    margin: 200px;
-    opacity: 0.3px;
-} */
+}
+.container{
+   border: 2px solid black;
+   background-color: rgba(161, 160, 160, 0.513)
+}
+.navbar{
+    display:flex;
+    align-items: center;
+    /* padding-bottom: 10px; */
+    width: 400px;
+    float: right;
+    
+}
+.topnav{
+    float: right;
+}
+header li{
+    margin: 10px;
+    display: inline;
+}
+header li button{
+    height: 35px;
+    clear: both;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: black;
+
+}
