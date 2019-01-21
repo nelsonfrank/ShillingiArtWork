@@ -43,7 +43,7 @@ body{
     
 }
 .topnav{
-    float: right;
+    padding-left: 20px; 
 }
 header li{
     margin: 10px;
