@@ -3,7 +3,7 @@
     margin: 0px;
 }
 body{
-    background: rgba(24, 180, 180, 0.589);
+    background: url(image/artpaper.jpg);
     height: 750px;
     width: auto;
     margin-top: 90px;
@@ -31,7 +31,7 @@ header h1{
     float: right;
     display:flex;
     align-items: center;
-    height: 40px;
+    height: 30 px;
 
 
 }
