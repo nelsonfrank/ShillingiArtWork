@@ -27,9 +27,7 @@ body{
     position: fixed;
     box-shadow : 0 0 25px 0 black;
  }
-.navbar{
- 
-}
+
 .container{
    border: 2 px solid black;
    background-color: rgba(161, 160, 160, 0.513)
