@@ -1,0 +1,45 @@
+
+@font-face{
+    font-family: sofia;
+    src: url(../fonts/Sofia-Regular.ttf);
+}
+@font-face{
+    font-family: sourceCode;
+    src: url(../fonts/SourceCodePro-Regular.ttf);
+}
+
+:root{
+    --color:rgba(17, 16, 16, 0.795);
+}
+/* Navigation Start */
+.head{
+    font-family: sourceCode;
+    font-size: 1.25rem;
+    display: grid;
+    grid-template-columns: 200px auto;
+    grid-template-rows:auto;
+    margin: 20px;
+}
+
+.home a{
+    color: var(--color);
+    text-decoration: none;
+}
+.link{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.link > li{
+    margin: 0px 20px;
+    text-decoration: none;
+}
+
+.link li > a{
+    text-decoration: none;
+    color: var(--color);
+}
+
+/* Navigation End */

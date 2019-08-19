@@ -1,0 +1,80 @@
+*, *::before, *::after{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: sofia;
+    src: url(../fonts/Sofia-Regular.ttf);
+}
+@font-face{
+    font-family: sourceCode;
+    src: url(../fonts/SourceCodePro-Regular.ttf);
+}
+
+:root{
+    --color:rgba(17, 16, 16, 0.795);
+}
+
+/* Section Start here */
+.profile{
+    display: grid;
+    grid-template-columns: 300px auto;
+    grid-auto-rows: 500px;
+    margin: 50px;
+    background-image: linear-gradient(rgba())
+}
+
+.title{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    position: relative;
+    background-color: rgba(20, 19, 19, 0.548);
+}
+.title .title-items{
+   
+    
+}
+.title h2{
+    color: var(--color);
+    font-family: sofia;
+    font-size: 2rem;
+
+}
+.title h3{
+    color: var(--color);
+    font-family: sourceCode;
+    font-size: 1rem;
+
+}
+
+
+.role{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+/* media queries  */
+@media all and (max-width: 1024px){
+    .link .icon {
+        display: none;
+    }
+}
+
+@media all and (max-width: 500px){
+
+    .link li{
+        display: none;
+    }
+    .link .icon{
+        display: block;
+    }
+
+    .profile{
+        display: grid;
+        grid-template-columns: 400px;
+        grid-template-rows: 300px;
+    }
+}
