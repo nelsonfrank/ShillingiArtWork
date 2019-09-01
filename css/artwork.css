@@ -358,7 +358,7 @@ section .btn{
             margin: 20px;
             padding: 10px;
             display: grid;
-            grid-template-columns: repeat(2, 270px) ;
+            grid-template-columns: 540px ;
             grid-template-rows: repeat(8, 300px);
             grid-gap: 2px;
             justify-content: center;
@@ -399,7 +399,7 @@ section .btn{
         margin: 20px;
         padding: 10px;
         display: grid;
-        grid-template-columns: repeat(2, 230px) ;
+        grid-template-columns: 460px ;
         grid-template-rows: repeat(8, 300px);
         grid-gap: 2px;
         justify-content: center;
@@ -440,7 +440,7 @@ section .btn{
         margin: 20px;
         padding: 10px;
         display: grid;
-        grid-template-columns: repeat(2, 230px) ;
+        grid-template-columns: 460px ;
         grid-template-rows: repeat(10, 200px);
         grid-gap: 2px;
         justify-content: center;
@@ -482,7 +482,7 @@ section .btn{
         margin: 20px;
         padding: 10px;
         display: grid;
-        grid-template-columns: repeat(2, 180px) ;
+        grid-template-columns: 360px ;
         grid-template-rows: repeat(8, 200px);
         grid-gap: 2px;
         justify-content: center;
