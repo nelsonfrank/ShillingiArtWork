@@ -56,6 +56,11 @@
     flex-flow: column nowrap;
     justify-content: center;
 }
+
+.link .icon{
+    display: none;
+}
+
 /* media queries  */
 @media all and (max-width: 1024px){
     .link .icon {

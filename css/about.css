@@ -26,13 +26,17 @@ main{
 section{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 300px;
+    grid-template-rows: 400px;
     grid-gap: 3rem;
     justify-content: center;
-    align-items: center;
 
 }
 
+.descrip{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .descrip h1{
     font-family: sofia;
     font-size: 30px;
@@ -41,5 +45,4 @@ section{
 .descrip h3{
     font-family: sourceCode;
     font-size: 15px;
-    
 }
