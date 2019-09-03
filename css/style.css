@@ -23,15 +23,13 @@
     grid-template-columns: 300px auto;
     grid-auto-rows: 500px;
     margin: 50px;
-    background-image: linear-gradient(rgba())
+    background: url()
 }
 
 .title{
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
-    position: relative;
-    background-color: rgba(20, 19, 19, 0.548);
 }
 .title .title-items{
    
