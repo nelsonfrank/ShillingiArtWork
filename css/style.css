@@ -32,9 +32,10 @@ body{
 /* Section Start here */
 .profile{
     display: grid;
-    grid-template-columns: 300px auto;
+    grid-template-columns: 300px;
     grid-auto-rows: 500px;
-    /* margin: 50px; */
+    margin: 50px 0px;
+    padding-left: 50px;
     width: 100%;
 }
 
@@ -43,21 +44,15 @@ body{
     flex-flow: column nowrap;
     justify-content: center;
 }
-.title .title-items{
-   
-    
-}
 .title h2{
     color: var(--color);
     font-family: sofia;
     font-size: 2rem;
-
 }
 .title h3{
     color: var(--color);
     font-family: sourceCode;
     font-size: 1rem;
-
 }
 
 
@@ -105,16 +100,69 @@ body{
         display: block;
     }
 .container{
-    padding: 300px 10px;
+    padding-top:170px;
 }
     .profile{
         display: grid;
         grid-template-columns: 300px;
         grid-template-rows: 180px;
-        justify-content: center;
-        align-items: center;
+        justify-content: stretch;
+        align-items: stretch;
+        font-size: 12px;
     }
-    .role{
-        display: none;
+
+    .title h2{
+        font-size: 1.5rem;
     }
+    .title h3{
+        font-size: 0.5rem;
+    }
+   
 }
+
+@media all and (max-width: 300px){
+    body{
+        height: 900px;
+    }
+        .link li{
+            display: none;
+        }
+        .link .icon{
+            display: block;
+        }
+    .container{
+        padding: 300px 0px;
+      }
+        .profile{
+            display: grid;
+            grid-template-columns: 200px;
+            grid-template-rows: 150px;
+            justify-content: stretch;
+            align-items: stretch;
+            font-size: 12px;
+        }
+    }
+    
+    @media all and (max-width: 250px){
+        body{
+            height: 600px;
+        }
+            .link li{
+                display: none;
+            }
+            .link .icon{
+                display: block;
+            }
+        .container{
+            padding: 300px 0px;
+        }
+            .profile{
+                display: grid;
+                grid-template-columns: 170px;
+                grid-template-rows: 120px;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+        
+    
