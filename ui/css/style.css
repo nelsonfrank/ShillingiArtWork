@@ -16,22 +16,32 @@
 :root{
     --color:rgba(17, 16, 16, 0.795);
 }
-
+body{
+    background: url('../image/home-.jpg') no-repeat bottom center/cover;
+    overflow: hidden;
+    height: 780px;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(46, 44, 44, 0.452);
+}
 /* Section Start here */
 .profile{
     display: grid;
     grid-template-columns: 300px auto;
     grid-auto-rows: 500px;
-    margin: 50px;
-    background-image: linear-gradient(rgba())
+    /* margin: 50px; */
+    width: 100%;
 }
 
 .title{
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
-    position: relative;
-    background-color: rgba(20, 19, 19, 0.548);
 }
 .title .title-items{
    
@@ -81,5 +91,30 @@
         display: grid;
         grid-template-columns: 400px;
         grid-template-rows: 300px;
+    }
+}
+
+@media all and (max-width: 400px){
+body{
+    height: 900px;
+}
+    .link li{
+        display: none;
+    }
+    .link .icon{
+        display: block;
+    }
+.container{
+    padding: 300px 10px;
+}
+    .profile{
+        display: grid;
+        grid-template-columns: 300px;
+        grid-template-rows: 180px;
+        justify-content: center;
+        align-items: center;
+    }
+    .role{
+        display: none;
     }
 }
