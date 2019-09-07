@@ -18,7 +18,7 @@
 }
 body{
     background: url('../image/home-.jpg') no-repeat bottom center/cover;
-    overflow: hidden;
+    overflow: auto;
     height: 1200px;
 }
 .overlay{
